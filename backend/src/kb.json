@@ -1,0 +1,413 @@
+[
+  {
+    "error": "Computer is Running Slow",
+    "keywords": ["slow pc", "lagging", "computer freezing", "applications not responding", "performance"],
+    "solution": [
+      "Step 1: Restart your computer. This clears temporary files and closes background processes.",
+      "Step 2: Close unnecessary applications and browser tabs that are using a lot of memory.",
+      "Step 3: Check your computer's disk space. A drive that is more than 90% full can cause slowdowns. Use the Disk Cleanup tool to free up space.",
+      "Step 4: Run a full virus and malware scan using your antivirus software.",
+      "Step 5: Disable non-essential programs from starting up with your computer. You can do this from the 'Startup' tab in the Task Manager (Ctrl+Shift+Esc)."
+    ]
+  },
+  {
+    "error": "Cannot Connect to Wi-Fi",
+    "keywords": ["no internet", "wifi not working", "can't connect to network", "wireless issue", "no wifi"],
+    "solution": [
+      "Step 1: Make sure Wi-Fi is enabled on your device using the physical switch or function key (F-key).",
+      "Step 2: On your computer, turn Wi-Fi off and then on again to refresh the connection.",
+      "Step 3: Restart your router by unplugging it from power for 30 seconds and plugging it back in.",
+      "Step 4: In your Wi-Fi settings, 'Forget' the network and then try to reconnect by entering the password again.",
+      "Step 5: Run the Windows Network Troubleshooter by right-clicking the Wi-Fi icon in the taskbar."
+    ]
+  },
+  {
+    "error": "Forgotten Password",
+    "keywords": ["forgot password", "can't log in", "password reset", "account locked", "credential issue"],
+    "solution": [
+      "Step 1: Use the 'Forgot Password' or 'Can't access your account?' link on the login screen.",
+      "Step 2: Follow the prompts for the self-service password reset (SSPR) tool, which may involve answering security questions or entering a code sent to your phone or alternate email.",
+      "Step 3: If you are still unable to log in, you will need to contact the IT Help Desk to verify your identity and get a temporary password."
+    ]
+  },
+  {
+    "error": "Blue Screen of Death (BSOD)",
+    "keywords": ["BSOD", "blue screen", "system crash", "stop code", "Windows error"],
+    "solution": [
+      "Step 1: Note the Stop Code displayed on the screen (e.g., `IRQL_NOT_LESS_OR_EQUAL`).",
+      "Step 2: The computer will likely restart automatically. If it happens again, think about any recent changes like a new driver or software installation.",
+      "Step 3: Ensure your Windows operating system and all hardware drivers (especially video card) are fully updated.",
+      "Step 4: Run the Windows Memory Diagnostic tool to check for faulty RAM.",
+      "Step 5: If the problem persists, contact IT with the stop code information you recorded."
+    ]
+  },
+  {
+    "error": "No Audio or Sound",
+    "keywords": ["no sound", "audio not working", "speakers muted", "can't hear anything"],
+    "solution": [
+      "Step 1: Check that your volume is not muted and is turned up. Also, check the physical volume control on your speakers or headset.",
+      "Step 2: Right-click the speaker icon in the taskbar and select 'Open Sound settings'. Make sure the correct Output device (speakers, headset, etc.) is selected.",
+      "Step 3: Ensure your speakers or headset are properly plugged in and powered on.",
+      "Step 4: Right-click the speaker icon, select 'Sounds', go to the 'Playback' tab, right-click your device and choose 'Test'.",
+      "Step 5: Update your audio drivers through Device Manager."
+    ]
+  },
+  {
+    "error": "External Monitor Not Detected",
+    "keywords": ["second screen not working", "dual monitors", "projector issue", "no signal", "display not detected"],
+    "solution": [
+      "Step 1: Ensure the monitor's power cable and the video cable (HDMI, DisplayPort, etc.) are securely connected to both the monitor and the computer.",
+      "Step 2: Make sure the monitor is set to the correct input source (e.g., HDMI 1, DisplayPort).",
+      "Step 3: Press the Windows Key + P to open the Project display settings and select 'Duplicate' or 'Extend'.",
+      "Step 4: Try a different video cable or a different port on your computer.",
+      "Step 5: Update your computer's graphics drivers."
+    ]
+  },
+  {
+    "error": "Webcam Not Working",
+    "keywords": ["camera not working", "no video", "webcam blocked", "zoom camera", "teams video issue"],
+    "solution": [
+      "Step 1: Ensure there is no physical privacy shutter covering the lens.",
+      "Step 2: Check your application's settings (e.g., in Zoom or Teams) to make sure the correct webcam is selected.",
+      "Step 3: Go to Windows 'Privacy & security' settings and ensure that 'Camera access' is turned on and that apps are allowed to access your camera.",
+      "Step 4: Unplug and replug the webcam if it's a USB device. If it's built-in, restart your computer.",
+      "Step 5: Update your webcam driver via the Device Manager."
+    ]
+  },
+  {
+    "error": "Outlook is Not Opening",
+    "keywords": ["outlook won't start", "can't open outlook", "outlook crashed", "processing"],
+    "solution": [
+      "Step 1: Open the Task Manager (Ctrl+Shift+Esc), find any 'Microsoft Outlook' processes, select them, and click 'End task'. Try opening Outlook again.",
+      "Step 2: Try opening Outlook in Safe Mode. Press Windows Key + R, type `outlook.exe /safe` and press Enter.",
+      "Step 3: If Safe Mode works, the issue is likely a faulty add-in. Go to File > Options > Add-ins to disable them.",
+      "Step 4: Use the Office Repair Tool. Go to Control Panel > Programs and Features, find your Office installation, and choose 'Change' then 'Quick Repair'."
+    ]
+  },
+  {
+    "error": "Cannot Send or Receive Emails",
+    "keywords": ["email stuck in outbox", "outlook not updating", "not getting new emails", "send receive error"],
+    "solution": [
+      "Step 1: Check your internet connection. Outlook cannot work without it.",
+      "Step 2: Look at the bottom right corner of the Outlook window. It should say 'Connected to: Microsoft Exchange' or 'All folders are up to date'.",
+      "Step 3: Go to the 'Send / Receive' tab and click the 'Send/Receive All Folders' button.",
+      "Step 4: Check your Outbox folder. If there are emails stuck there, delete any with very large attachments and try again.",
+      "Step 5: Restart Outlook."
+    ]
+  },
+  {
+    "error": "Running Out of Disk Space",
+    "keywords": ["disk full", "low storage", "cannot save file", "not enough space"],
+    "solution": [
+      "Step 1: Empty your Recycle Bin.",
+      "Step 2: Run the built-in Disk Cleanup tool. Search for it in the Start Menu and select the option to 'Clean up system files'.",
+      "Step 3: Uninstall applications you no longer use from 'Add or remove programs'.",
+      "Step 4: Move large files to a network drive or cloud storage (like OneDrive).",
+      "Step 5: Clear your web browser's cache and your Downloads folder."
+    ]
+  },
+  {
+    "error": "VPN Not Connecting",
+    "keywords": ["vpn failed", "can't connect to vpn", "secure connection error", "remote access"],
+    "solution": [
+      "Step 1: Ensure you have a stable internet connection before attempting to connect to the VPN.",
+      "Step 2: Double-check that you are using the correct server address, username, and password.",
+      "Step 3: Restart the VPN client software. If that fails, restart your computer.",
+      "Step 4: Make sure your VPN client is updated to the latest version.",
+      "Step 5: Temporarily disable your firewall to see if it's blocking the connection, but remember to re-enable it."
+    ]
+  },
+  {
+    "error": "404 Not Found",
+    "keywords": ["404", "page not found", "broken link", "missing file", "HTTP 404"],
+    "solution": [
+      "Step 1: Double-check the URL for any typos or errors in the web address.",
+      "Step 2: Try refreshing the page (F5 or Ctrl+R).",
+      "Step 3: Go back to the website's homepage and try to navigate to the page you were looking for from there.",
+      "Step 4: Clear your browser's cache and cookies, as it might be loading a saved, broken version of the page."
+    ]
+  },
+  {
+    "error": "500 Internal Server Error",
+    "keywords": ["500", "server error", "application crash", "website down", "HTTP 500"],
+    "solution": [
+      "Step 1: This is an error on the website's server, not your computer. Try refreshing the page after a few minutes.",
+      "Step 2: Clear your browser cache. Sometimes your browser holds onto a cached version of the error.",
+      "Step 3: Try accessing the website from a different device or network to confirm the issue is with the site itself.",
+      "Step 4: If the issue persists, you will have to wait for the website's administrators to fix the problem on their end."
+    ]
+  },
+  {
+    "error": "Keyboard or Mouse Not Working",
+    "keywords": ["keyboard not typing", "mouse not moving", "unresponsive input", "USB device not recognized"],
+    "solution": [
+      "Step 1: If it's wireless, check or replace the batteries.",
+      "Step 2: If it's wired, unplug it and plug it into a different USB port.",
+      "Step 3: Restart your computer. This often resolves driver glitches.",
+      "Step 4: Test the keyboard or mouse on a different computer to see if the device itself has failed.",
+      "Step 5: Check for driver updates in the Device Manager."
+    ]
+  },
+  {
+    "error": "Application Installation Failed",
+    "keywords": ["software won't install", "installer error", "setup failed", "insufficient privileges"],
+    "solution": [
+      "Step 1: Ensure you have administrative rights to install software. Right-click the installer and select 'Run as administrator'.",
+      "Step 2: Check if you have enough free disk space for the application.",
+      "Step 3: Temporarily disable your antivirus software, as it can sometimes block installations. Remember to re-enable it afterward.",
+      "Step 4: Re-download the installer file, as the original may be corrupted.",
+      "Step 5: Restart your computer to clear any conflicts."
+    ]
+  },
+  {
+    "error": "Cannot Save a File",
+    "keywords": ["access denied when saving", "can't save", "permission error", "read-only"],
+    "solution": [
+      "Step 1: Try using the 'Save As' command to save the file with a new name or in a different location, like your Desktop or Documents folder.",
+      "Step 2: Ensure you are not trying to save to a location where you don't have write permissions, like a network drive you can only read from.",
+      "Step 3: Check if the file is marked as 'Read-only'. Right-click the file, go to 'Properties', and uncheck the 'Read-only' box.",
+      "Step 4: Make sure you have enough disk space on the drive where you are trying to save."
+    ]
+  },
+  {
+    "error": "Email Attachment Won't Open",
+    "keywords": ["can't open attachment", "blocked attachment", "file corrupted", "preview failed"],
+    "solution": [
+      "Step 1: Ensure you have the correct software to open the file type (e.g., Adobe Reader for a PDF, Microsoft Excel for an XLSX file).",
+      "Step 2: Outlook may block certain file types for security. Ask the sender to rename the file (e.g., to .txt) or to zip it before sending.",
+      "Step 3: Save the attachment to your computer first, then try opening it from there, instead of opening it directly from the email.",
+      "Step 4: The file may be corrupt. Ask the sender to resend it."
+    ]
+  },
+  {
+    "error": "Laptop Battery Not Charging",
+    "keywords": ["plugged in not charging", "battery dead", "laptop won't charge", "adapter issue"],
+    "solution": [
+      "Step 1: Ensure the power adapter is securely plugged into both the wall outlet and the laptop's charging port.",
+      "Step 2: Check the charging port on the laptop for any dust or debris and clean it carefully.",
+      "Step 3: Try a different wall outlet.",
+      "Step 4: Shut down the laptop completely, remove the battery if possible, wait a minute, then reinsert it and try charging again.",
+      "Step 5: Update your laptop's BIOS and battery drivers from the manufacturer's website."
+    ]
+  },
+  {
+    "error": "Browser is Slow or Crashing",
+    "keywords": ["slow chrome", "firefox freezing", "browser lagging", "unresponsive script"],
+    "solution": [
+      "Step 1: Clear your browser's cache, cookies, and history.",
+      "Step 2: Disable unnecessary extensions and add-ons, as they can consume a lot of resources. Do this from the browser's settings menu.",
+      "Step 3: Make sure your browser is updated to the latest version.",
+      "Step 4: Close other programs on your computer to free up memory.",
+      "Step 5: Try resetting the browser to its default settings."
+    ]
+  },
+  {
+    "error": "Pop-up Ads on Computer",
+    "keywords": ["popups", "adware", "virus", "unwanted ads", "redirects"],
+    "solution": [
+      "Step 1: Do not click on any links or buttons within the pop-ups.",
+      "Step 2: Run a full scan with your antivirus and a dedicated anti-malware program (like Malwarebytes).",
+      "Step 3: Check your browser's extensions and remove any that you do not recognize or trust.",
+      "Step 4: Check your installed programs list in the Control Panel and uninstall any suspicious software.",
+      "Step 5: Reset your browser's settings to default."
+    ]
+  },
+  {
+    "error": "Cannot Access a Specific Website",
+    "keywords": ["website not loading", "site down", "connection timed out", "this site can’t be reached"],
+    "solution": [
+      "Step 1: Check if the website is down for everyone by using a service like 'downforeveryoneorjustme.com'.",
+      "Step 2: Try accessing the website using a different browser or in your browser's incognito/private mode.",
+      "Step 3: Clear your browser's cache and cookies.",
+      "Step 4: Open a Command Prompt and type `ipconfig /flushdns` to clear your DNS cache.",
+      "Step 5: Restart your computer and your router."
+    ]
+  },
+  {
+    "error": "File Synchronization Error (OneDrive, Dropbox)",
+    "keywords": ["onedrive not syncing", "sync pending", "file conflict", "cloud storage error"],
+    "solution": [
+      "Step 1: Check the sync client's icon for error messages. Hover over it to see details.",
+      "Step 2: Ensure you are not trying to sync files with invalid characters in the name (e.g., / , \\ , < , >).",
+      "Step 3: Pause and then resume syncing from the client's settings.",
+      "Step 4: Make sure you have enough storage space in your cloud account.",
+      "Step 5: Sign out of the sync client and then sign back in. This often forces a full resync."
+    ]
+  },
+  {
+    "error": "Microsoft Teams Call Quality is Poor",
+    "keywords": ["laggy video call", "robotic voice", "bad audio teams", "blurry screen share"],
+    "solution": [
+      "Step 1: If possible, switch from a Wi-Fi connection to a wired Ethernet connection.",
+      "Step 2: Close all other applications that use the internet, especially streaming video or large downloads.",
+      "Step 3: Turn off your incoming video feed if you only need audio. This saves bandwidth.",
+      "Step 4: Check your internet speed using a speed test website. If it's slow, restart your router.",
+      "Step 5: In Teams settings, under 'Devices', make a test call to check your microphone and speaker quality."
+    ]
+  },
+  {
+    "error": "Two-Factor Authentication (2FA/MFA) Code Not Working",
+    "keywords": ["2fa code invalid", "mfa not working", "authenticator app error", "can't get code"],
+    "solution": [
+      "Step 1: Ensure the time on your phone (where the code is generated) is synced automatically. A time difference is a common cause of invalid codes.",
+      "Step 2: If receiving codes via SMS, check your phone's signal strength.",
+      "Step 3: Try using one of the backup codes you were given during setup.",
+      "Step 4: If all else fails, you will need to use the account recovery option or contact IT to have your MFA reset."
+    ]
+  },
+  {
+    "error": "Copy and Paste is Not Working",
+    "keywords": ["can't copy", "paste not working", "clipboard empty", "ctrl c ctrl v broken"],
+    "solution": [
+      "Step 1: Try copying and pasting a different piece of text or a file to see if the issue is with the content itself.",
+      "Step 2: Close and reopen the application you are trying to copy from and paste into.",
+      "Step 3: For Windows, you can restart the clipboard process. Open Task Manager, find 'Windows Explorer', right-click and select 'Restart'.",
+      "Step 4: A full computer restart is the most common fix for a broken clipboard."
+    ]
+  },
+  {
+    "error": "Windows Update Fails to Install",
+    "keywords": ["update failed", "windows update stuck", "error installing update", "undoing changes"],
+    "solution": [
+      "Step 1: Restart your computer and try running Windows Update again.",
+      "Step 2: Ensure you have sufficient free disk space on your C: drive.",
+      "Step 3: Run the built-in Windows Update Troubleshooter from the Settings menu.",
+      "Step 4: Temporarily uninstall any third-party antivirus software, as it can sometimes interfere with updates.",
+      "Step 5: Manually download the problematic update from the Microsoft Update Catalog and try to install it."
+    ]
+  },
+  {
+    "error": "Account is Locked Out",
+    "keywords": ["account locked", "too many failed attempts", "login disabled"],
+    "solution": [
+      "Step 1: Most account lockout policies are temporary. Wait for the specified period (e.g., 15-30 minutes) and try again carefully.",
+      "Step 2: If you have forgotten your password, use the self-service password reset tool instead of guessing.",
+      "Step 3: Check if your credentials are saved in any applications (like Outlook on your phone) that might be trying to log in repeatedly with an old password.",
+      "Step 4: If you need immediate access, contact the IT Help Desk to have your account unlocked manually."
+    ]
+  },
+  {
+    "error": "Browser Certificate Error",
+    "keywords": ["your connection is not private", "certificate invalid", "security warning", "NET::ERR_CERT_AUTHORITY_INVALID"],
+    "solution": [
+      "Step 1: Check that your computer's date and time are correct. An incorrect clock is the most common cause of this error.",
+      "Step 2: Try clearing your browser's cache and cookies.",
+      "Step 3: Ensure your browser is fully updated.",
+      "Step 4: This can indicate a real security problem with the website. If it's a site you don't recognize or trust, do not proceed.",
+      "Step 5: If it's a known internal company site, contact IT as they may need to update the site's security certificate."
+    ]
+  },
+  {
+    "error": "Cannot Access Shared Network Drive",
+    "keywords": ["shared drive not appearing", "access denied to share", "network path not found"],
+    "solution": [
+      "Step 1: Ensure you are connected to the company network, either via Ethernet, corporate Wi-Fi, or the company VPN.",
+      "Step 2: Try to access the drive by manually typing its path (e.g., `\\\\servername\\sharename`) into the File Explorer address bar.",
+      "Step 3: If you get an 'Access Denied' error, your permissions may be incorrect. Contact IT to verify your access rights.",
+      "Step 4: A simple computer restart can often re-establish the connection to network drives."
+    ]
+  },
+  {
+    "error": "Scanner Not Detected",
+    "keywords": ["scanner not working", "cannot scan", "twain error", "scanner not found"],
+    "solution": [
+      "Step 1: Make sure the scanner is powered on and the USB cable is securely connected to both the scanner and the computer.",
+      "Step 2: Restart both the scanner and your computer.",
+      "Step 3: Open Device Manager and check if the scanner appears under 'Imaging devices' or 'Printers'. If there's an error icon, the driver may be corrupt.",
+      "Step 4: Download and install the latest driver for your scanner model from the manufacturer's website.",
+      "Step 5: Try using a different USB cable and port."
+    ]
+  },
+  {
+    "error": "Computer Overheating or Loud Fan Noise",
+    "keywords": ["pc too hot", "loud fan", "thermal throttling", "computer shutting down"],
+    "solution": [
+      "Step 1: Ensure the computer's vents are not blocked by walls, books, or other objects. Laptops should be used on a hard, flat surface.",
+      "Step 2: Check for and close any applications that are using a very high amount of CPU in the Task Manager.",
+      "Step 3: Physically inspect the vents and fans for dust buildup. If you are comfortable doing so, use compressed air to clean them out.",
+      "Step 4: A failing component, like a hard drive or fan, can also cause noise. If you hear clicking or grinding, contact IT immediately."
+    ]
+  },
+  {
+    "error": "Date and Time are Incorrect",
+    "keywords": ["wrong time", "clock is off", "time sync error"],
+    "solution": [
+      "Step 1: Right-click the clock in the taskbar and select 'Adjust date/time'.",
+      "Step 2: Ensure that 'Set time automatically' and 'Set time zone automatically' are both turned on.",
+      "Step 3: If it's still incorrect, turn off 'Set time automatically', manually set the correct time, and then turn it back on.",
+      "Step 4: If the time is consistently wrong after every reboot, the small CMOS battery on the computer's motherboard may need to be replaced. Contact IT for this."
+    ]
+  },
+  {
+    "error": "Accidentally Deleted a File",
+    "keywords": ["deleted file", "recover file", "restore deleted item", "file missing"],
+    "solution": [
+      "Step 1: First, check your Recycle Bin. If the file is there, right-click it and select 'Restore'.",
+      "Step 2: If the file was on a network drive, navigate to the folder where it was saved, right-click, and select 'Restore previous versions' or 'Properties' > 'Previous Versions'. You may be able to find a recent copy there.",
+      "Step 3: If the file was in a cloud storage folder like OneDrive, log in to the web version and check its Recycle Bin.",
+      "Step 4: If you still cannot find it, contact the IT Help Desk immediately. They may be able to restore it from a backup."
+    ]
+  },
+  {
+    "error": "Can't Eject USB Drive Safely",
+    "keywords": ["problem ejecting usb", "device is currently in use", "safely remove hardware"],
+    "solution": [
+      "Step 1: Make sure you have closed all files and programs that might be using the USB drive.",
+      "Step 2: Use the 'Safely Remove Hardware and Eject Media' icon in the system tray to try again.",
+      "Step 3: If it still fails, the safest option is to shut down your computer completely before unplugging the drive.",
+      "Step 4: Alternatively, you can use Task Manager to find and end any process that may be holding the drive open (this is for advanced users)."
+    ]
+  },
+  {
+    "error": "Touchpad / Trackpad Not Working",
+    "keywords": ["touchpad not working", "laptop mouse frozen", "cursor not moving"],
+    "solution": [
+      "Step 1: Look for a function key (F-key) on your keyboard that has an icon of a touchpad. Pressing this key (sometimes with the Fn key) can toggle the touchpad on and off.",
+      "Step 2: Restart your laptop.",
+      "Step 3: Go to Windows Settings > Devices > Touchpad, and make sure the touchpad is turned on.",
+      "Step 4: Update the touchpad driver from the Device Manager or the laptop manufacturer's website."
+    ]
+  },
+  {
+    "error": "Computer Won't Turn On",
+    "keywords": ["no power", "pc won't start", "dead computer", "blank screen"],
+    "solution": [
+      "Step 1: Check the power cable connections at the wall outlet, the power brick (for laptops), and the computer itself.",
+      "Step 2: Try a different wall outlet that you know works.",
+      "Step 3: For a desktop, check the power switch on the back of the power supply unit (PSU). For a laptop, try holding the power button down for 30 seconds.",
+      "Step 4: If it's a laptop, the battery may be completely dead. Leave it plugged in for at least 30 minutes before trying to turn it on again.",
+      "Step 5: If nothing works, there may be a hardware failure. Contact IT."
+    ]
+  },
+  {
+    "error": "Computer Turns On But Screen is Blank",
+    "keywords": ["black screen", "no display", "monitor blank", "no signal"],
+    "solution": [
+      "Step 1: Make sure the monitor is turned on and the power light is active.",
+      "Step 2: Re-seat the video cable connecting the computer and the monitor at both ends.",
+      "Step 3: If you have a desktop with a dedicated graphics card, make sure the monitor is plugged into the card, not the motherboard's video port.",
+      "Step 4: Try connecting the computer to a different monitor or TV to see if the computer is outputting a signal.",
+      "Step 5: Listen for beeps from the computer when it starts up. A pattern of beeps can indicate a specific hardware error."
+    ]
+  },
+  {
+    "error": "Can't Open a ZIP file",
+    "keywords": ["unzip error", "cannot open compressed folder", "archive is corrupt"],
+    "solution": [
+      "Step 1: Windows has a built-in tool. Right-click the ZIP file and select 'Extract All...'.",
+      "Step 2: If that fails, the file may be corrupt. Try re-downloading it.",
+      "Step 3: The file might be in a format that Windows cannot open by default (like .rar or .7z). Install a third-party tool like 7-Zip to open it.",
+      "Step 4: The archive may be password-protected. You will need to get the password from the person who sent it."
+    ]
+  },
+  {
+    "error": "My Default Printer Keeps Changing",
+    "keywords": ["wrong printer selected", "default printer issue", "windows managing printer"],
+    "solution": [
+      "Step 1: Go to Settings > Bluetooth & devices > Printers & scanners.",
+      "Step 2: Scroll down and find the option 'Let Windows manage my default printer'.",
+      "Step 3: Turn this setting OFF.",
+      "Step 4: Now, you can manually select the printer you want as your default and click the 'Set as default' button."
+    ]
+  }
+]
