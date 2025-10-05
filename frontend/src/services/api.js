@@ -1,5 +1,5 @@
 // src/services/api.js
-const DEFAULT_API_BASE = "http://localhost:4000";
+const DEFAULT_API_BASE = "https://trobule-shoot.onrender.com";
 
 /**
  * Utility: timeout a promise
