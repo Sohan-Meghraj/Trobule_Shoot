@@ -9,6 +9,7 @@ import { fileURLToPath } from "url";
 // Utils
 import { buildVocab, preprocessQuery } from "./utils/preprocess.js";
 import { createSearchIndex, findBestMatch } from "./utils/search.js";
+
 const PORT = process.env.PORT || 4000;
 
 // Fix for __dirname in ES modules
@@ -46,6 +47,7 @@ class TroubleshootServer {
     this.setupMiddleware();
     this.loadKnowledgeBase();
     this.setupRoutes();
+    this.serveFrontend(); // <<< serve React build
   }
 
   setupMiddleware() {
@@ -178,17 +180,25 @@ class TroubleshootServer {
       }
     });
 
-    this.app.get("/", (req, res) => {
-      res.json({
-        message: "🚀 Troubleshoot AI Server is running",
-        endpoints: {
-          health: "GET /api/health",
-          kbInfo: "GET /api/kb",
-          ask: "POST /api/ask",
-        },
-        version: "1.0.0",
-      });
+    this.app.get("/api", (req, res) => {
+      res.json({ message: "🚀 Troubleshoot AI API is running" });
     });
+  }
+
+  // --------------------------------------------------
+  // Serve React frontend build
+  // --------------------------------------------------
+  serveFrontend() {
+    const frontendPath = path.join(__dirname, "../frontend/dist");
+    if (fs.existsSync(frontendPath)) {
+      this.app.use(express.static(frontendPath));
+
+      this.app.get("*", (req, res) => {
+        res.sendFile(path.join(frontendPath, "index.html"));
+      });
+    } else {
+      console.warn("⚠️ Frontend build not found. Make sure you run `npm run build` in frontend.");
+    }
   }
 
   logUnknownQuery(query) {
@@ -214,7 +224,7 @@ class TroubleshootServer {
         console.log("   GET  /api/health");
         console.log("   GET  /api/kb");
         console.log("   POST /api/ask");
-        console.log("   GET  /");
+        console.log("   GET  /api");
         resolve(this.server);
       });
 
